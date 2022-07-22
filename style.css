@@ -1,0 +1,129 @@
+:root{
+
+    /* Colors */
+    --color-primary-violet: hsl(257,40%,49%);
+    --color-primary-softMagenta: hsl(300,69%,71%);
+
+    /* Fonts */
+
+    --font-family-heading-sansSerif: "Poppins", sans-serif;
+    --font-family-body-sansSerif: 'Open Sans', sans-serif;
+
+    --font-weight-400:400;
+    --font-weight-600:600;
+
+
+
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3em;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-violet);
+    background-image: url(images/bg-desktop.svg);
+}
+
+h1{
+    font-size: 2em;
+    font-family: var(--font-family-heading-sansSerif);
+    color: white;
+    font-weight: var(--font-weight-600);
+}
+
+p{
+    font-family: var(--font-family-body-sansSerif);
+    color: white;
+
+}
+img{
+    width: 100%;
+}
+
+.logo{ 
+    gap: 1em;
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+}
+.logo img{ 
+    width: 200px;
+}
+.container{
+    display: flex;
+}
+
+.section{
+    padding: 2em 0;
+
+}
+
+.section-left{
+    flex: 1;
+
+}
+.section-right{
+    padding: 5em 3em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;   
+}
+.content h1{
+    width: 60%;
+}
+.content p{
+    width: 70%;
+}
+
+.content button{
+    padding: 1em 4em;
+    width: fit-content;
+    border-width: 0;
+    border-radius: 3em;
+    color: var(--color-primary-violet);
+}
+
+.content button:active{
+    background-color: var(--color-primary-softMagenta);
+    color: white;
+}
+
+.circle{
+    width: 40px;
+    border: 2px solid white;
+    padding: .5em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle:active{
+    color: var(--color-primary-softMagenta);
+    border-color: var(--color-primary-softMagenta);
+}
+.social-links{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+
+}
