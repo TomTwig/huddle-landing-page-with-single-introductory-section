@@ -1,11 +1,9 @@
 :root{
-
     /* Colors */
     --color-primary-violet: hsl(257,40%,49%);
     --color-primary-softMagenta: hsl(300,69%,71%);
 
     /* Fonts */
-
     --font-family-heading-sansSerif: "Poppins", sans-serif;
     --font-family-body-sansSerif: 'Open Sans', sans-serif;
 
@@ -110,8 +108,7 @@ img{
 
 .circle{
     width: 40px;
-    border: 2px solid white;
-    border-width: 1px;
+    border: 1px solid white;
     padding: .5em;
     border-radius: 50%;
     display: flex;
@@ -130,8 +127,6 @@ img{
     justify-content: flex-end;
     color: white;
 }
-
-
 
 @media only screen and (max-width:600px) {
 
@@ -182,20 +177,6 @@ img{
 
     .circle{
         width: 30px;
-        border: 2px solid white;
-        border-width: 1px;
-        padding: .5em;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
-
-
-
    
-
-
-
-    
 }
