@@ -19,7 +19,7 @@
 
 body{
     max-width: 1440px;
-    max-height: 880px;
+    max-height: 800px;
     padding: 4em;
     height: 100vh;
     display: flex;
